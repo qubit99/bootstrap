@@ -1,8 +1,17 @@
+.contain {
+    width: 100%;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+
+
 .row-header {
     margin: 0px auto;
     padding:0px auto;
 }
-
 
 .row-content{
     margin: 0px auto;
@@ -28,3 +37,4 @@
     font-size: 80%;
     color: #0f0f0f;
 }
+
