@@ -17,13 +17,13 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top" style="background-color: #55177ed5;">
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top" style="background-color: #55177e;">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand mr-auto " href="#">
-                Ristorante Con Fusion
+                <img src="img/logo.png" height="30" width="41">
             </a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
@@ -44,23 +44,40 @@
                 <div class="col-12 col-sm-6">
                     <h1 style="font-size:60px;">Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                </div>   
+                <div class="col col-sm-6 " >           
+                <div class="col-12 col-sm align-self-center ">
+                    <img src="img/logo.png" class="img-fluid ">
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm-12">
+                    <a href="#" type="button" class="btn btn-warning btn-md mt-3 " ><strong> Reserve a Table </strong></a>
+                </div>
                 </div>
             </div>
-        </div>
+            
+        </div> 
     </header>
 
     <div class="contain">
-        <div class=" row row-content align-items-center">
-            
+        <div class=" row row-content align-items-center">  
             <div class="col col-sm col-md">
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                <div class=media>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthappizza">
+                    <div class="media-body">
+                        <h2 class="mt-0">
+                            Uthappizza
+                            <span class="badge badge-danger">HOT</span>
+                            <span class="badge badge-pill badge-secondary">$4.99</span>
+                        </h2>
+                        <p>A unique combination of Indian Uthappam (pancake) and 
+                            Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                    </div>
+                    
+                </div>         
             </div>
             <div class="col-12 col-sm-4 col-md-3">
-                    <h1>Our Lipsmacking Culinary Creations</h1>
-                </div>
+                <h1>Our Lipsmacking Culinary Creations</h1>
+            </div>  
         </div>
 
       
@@ -70,24 +87,68 @@
                 <h1>This Month's Promotions</h1>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
+                <h2>Weekend Grand Buffet
+                <span class="badge badge-danger">NEW</span></h2>
                 <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
             </div>
+            <img class="d-flex mr-3 img-thumbnail align-items-center" src="img/buffet.png" alt="buffet">
+            
+            
+            
         </div>
 
         <div class="row row-content align-items-center">
             
             <div class="col col-sm col-md">
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center "
+                        src="img/alberto.png" alt="alberto">
+                    <div class="media-body">
+                        <h2 class="mt-0">Alberto Somayya</h2>
+                        <h4>Executive Chef</h4>
+                        <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                    </div>
+                </div>
             </div>
             <div class="col-12 col-sm-4 col-md-3">
-                    <h1>Meet our Culinary Specialists</h1>
-                </div>
+                <h1>Meet our Culinary Specialists</h1>
+            </div>
         </div>
     </div>
     <br>
+
+    <div class="row justify-content-center">
+    <div class="col-12 col-sm-8">
+        <div class="card ">
+                <h3 class="card-header text-white bg-warning" >Reserve a Table</h3>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-3">Number of Guests<br><br></dt>
+                        <dd class="col-9">
+                            <form>
+                                <input type="radio" name="number" value="1"> 1 &ensp;
+                                <input type="radio" name="number" value="2"> 2 &ensp;
+                                <input type="radio" name="number" value="3"> 3 &ensp;
+                                <input type="radio" name="number" value="4"> 4 &ensp;
+                                <input type="radio" name="number" value="5"> 5 &ensp;
+                                <input type="radio" name="number" value="6"> 6 &ensp;
+                                
+                            </form>
+                        </dd>
+                        
+                        <dt class="col-3">Date and Time</dt>
+                        <dd class="col-9">
+                            <form>
+                                <input type="text" placeholder="Date"> &ensp; <input type="text" placeholder="Time">
+                            </form>
+                        </dd>
+                        
+                    </dl>
+                </div>
+            </div>
+    </div>
+</div>
+<br>
     <footer class="footer">
         <div class="contain">
             <div class="row">             
@@ -97,7 +158,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="./contactus.html ">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
